@@ -1,0 +1,185 @@
+/* Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* class clear*/
+.clr{
+    clear: both;
+}
+/* Ä�á»‹nh dáº¡ng body*/
+body{
+    background: #FFFFFF ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+/* Ä‘á»‹nh dáº¡ng class main*/
+.main{
+    
+    /* canh giá»¯a mĂ n hĂ¬nh*/    
+    /*margin: 0px auto;*/
+    
+    
+}
+
+/* táº¡o Ä‘á»‹nh dáº¡ng cho pháº§n top*/
+.top{     
+    
+    width: 100%;
+    height:150px;
+    background:#010101;
+    transform: translateZ(0);
+    z-index: 100;
+    margin: 0px auto;
+}
+
+.top .homepage{   
+    float: left;
+    /*táº¡o khoáº£ng cĂ¡ch*/
+    padding-left: 10%;
+    padding-top: 25px;
+}
+.top .search{   
+    width:  50%;
+    height: 40px;   
+    float: left;
+    background: #000000;
+    margin-top: 50px;
+    margin-left: 5%;
+    border: 1px solid #000000;
+
+}
+.top .search ul{
+    
+}
+.top .search .search_text{  
+    
+    float: left;       
+    color: #ffffff;
+    height:30px;
+    width:50%;  
+    margin-top: 30px;
+    margin-left: 0%;
+}
+
+.top .search .search_input{
+
+    float: left;
+    width:90%;
+    height:30px;   
+    margin-left: 0%;
+    margin-top:0px;
+    border: 1px solid  #FFFFFF ;
+}
+.top .search .search_input ul{
+    position: fixed;
+}
+.top .search .search_bt{
+
+    float: left;
+    width: 7%;
+    height:30px;
+    
+    margin-left: 0%;
+}
+
+img {
+    display: block;
+    max-width:100%;
+    max-height:95px;
+    width: auto;
+    height: auto;
+  }
+
+.top .thanhtrangthai{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;    
+  
+}
+.top .thanhtrangthai ul {
+    list-style-type: none;
+    padding: 1%; 
+    display: flex;
+    justify-content: space-between;
+    position: fixed;    
+    right: 1%;
+    top: 0;
+   
+}
+.top .thanhtrangthai a  {
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+.top .thanhtrangthai .Registration{
+    margin-left: 20px;
+}
+.top .thanhtrangthai .Giohang{
+    
+     margin-left: 20px;
+}
+
+.signup-header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background:black;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  font-size:16px;
+}
+
+.signup-group {
+  margin: 10px 0px 10px 0px;
+}
+.signup-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.signup-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size:14px;
+}
+.signup-btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background:black;
+  border: none;
+  border-radius: 5px;
+}
+
+ mark{
+  color:grey;
+  background:black;
+  font-size:26px;
+}
+
+.footer{
+	background: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
